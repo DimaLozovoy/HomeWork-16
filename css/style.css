@@ -1,12 +1,13 @@
 .task {
-    content: '';
-    height: 500px;
-    width: 1000px;
-    background-color: green;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100px;
-    background-image: url(​https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg), url(https://www.freeiconspng.com/img/34914), url(​https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png), url(https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/Ёжик.png/revision/latest?cb=20180209130328&path-prefix=ru), url(​https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png​);
-    background-position: center, right, bottom, left;
-    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+  margin: 0 auto;
+  height: 500px;
+  width: 1000px;
+  background-color: green;
+  background-image: url(https://png.pngtree.com/png-clipart/20210527/ourlarge/pngtree-house-village-png-image_3370854.jpg),
+    url(https://www.freeiconspng.com/uploads/lamp-png-0.png),
+    url(https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png),
+    url(https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/Ёжик.png/revision/latest?cb=20180209130328&path-prefix=ru);
+  background-position: center, top, bottom, left, right;
+  background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 200px, 30px, 200px, 40px, 40px;
 }
